@@ -22,7 +22,7 @@ Tracking ID for Google Analytics in format `UA-XXXX-Y`
 
 ### poolSize
 
-For high load applications it's good idea to reuse connections to Google Analytics server instead of creation new for each Hit/Event/etc.., so this option set maximium parallel connections to analytics servers.
+For high load applications it's a good idea to reuse connections to Google Analytics server instead of creation a new one for each Hit/Event/etc.., so this option set maximium parallel connections to analytics servers.
 
 ## Send info to google analytics
 
