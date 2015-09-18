@@ -27,7 +27,8 @@ describe("common", function() {
             tid: "trid",
             t: "pageview",
             dh: "host.com",
-            dp: "/"
+            dp: "/",
+            v: "1"
           });
           res.write("hello");
           res.end();
