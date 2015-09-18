@@ -17,6 +17,7 @@ describe("common", function() {
     var data = {};
     before(function() {
       server = http.createServer(function(req, res) {
+        req.method.should.equal("POST");
         var rawData = "";
         req.on("data", function(chunk) {
           rawData += chunk;
