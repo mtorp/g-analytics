@@ -1,6 +1,6 @@
 {
   "name": "g-analytics",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Ease to use nodejs google analytics client, which uses Measurement Protocol",
   "main": "index.js",
   "dependencies": {
