@@ -8,17 +8,16 @@
 
 ```js
 var Client = require("g-analytics");
-var client = new Client({
-  trackingId: "UA-XXXX-Y",
+var client = new Client("UA-XXXX-Y", {
   poolSize: 10
 });
 ```
 
-## Options
-
-### trackingId
+## trackingId
 
 Tracking ID for Google Analytics in format `UA-XXXX-Y`
+
+## Options
 
 ### poolSize
 
